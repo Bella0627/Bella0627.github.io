@@ -10,94 +10,132 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-            background-color: white;
+            line-height: 1.6;
         }
         header {
             text-align: center;
-            margin-bottom: 30px;
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
         }
-        header img {
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header h2 {
+            margin: 5px 0;
+            font-size: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-photo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .profile-photo img {
             width: 150px;
+            height: 150px;
             border-radius: 50%;
         }
-        .section-title {
-            font-size: 24px;
+        h3 {
             color: #333;
+            font-size: 22px;
             margin-top: 20px;
-            text-decoration: underline;
+            font-weight: bold;
         }
-        .content {
+        h4 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #555;
             margin-top: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
 
+    <header>
+        <h1>陳麗靜</h1>
+        <h2>Chen Li-Ching</h2>
+    </header>
+
     <div class="container">
-        <header>
-            <h1>陳麗靜</h1>
-            <h2>Chen Li-Ching</h2>
-            <!-- 插入個人照片 -->
-            <img src="您的照片路徑.jpg" alt="Personal Photo">
-        </header>
 
-        <section>
-            <div class="section-title">就學經歷</div>
-            <div class="content">
-                <p>國立陽明交通大學 資訊管理暨財務金融學研究所 2024 - 2026（在學）</p>
-                <p>國立中央大學 財務金融學系 雙主修客家語文暨社會科學系 2019 - 2024（畢業）</p>
-            </div>
-        </section>
+        <div class="profile-photo">
+            <"C:\Users\bella\Desktop\E49A3870-D995-4D9D-8E90-A165878F1AA3.jpg">
+            <img src="your-photo.jpg" alt="個人照片">
+        </div>
 
-        <section>
-            <div class="section-title">活動與實習經歷</div>
-            <div class="content">
-                <p><strong>U-Start 創新創業計畫—好好坐壓</strong><br>通過113年度教育部一階徵選，獲得35萬創業基金。創立初衷是為了緩解輪椅族群的褥瘡疾病，也想呼籲「久坐」可能帶來的負面影響。初次嘗試成立與經營公司，本人在團隊中擔任財務組長，妥善規劃與運用預算，並協助團隊與工業設計師及桃園市私立脊髓損傷潛能發展中心合作，為輪椅族群打造「智能坐墊」與久坐族的「療癒坐墊」。</p>
+        <div class="section">
+            <h3>就學經歷：</h3>
+            <h4>學歷：</h4>
+            <ul>
+                <li>國立陽明交通大學 資訊管理暨財務金融學研究所 2024 - 2026（在學）</li>
+                <li>國立中央大學 財務金融學系 雙主修客家語文暨社會科學系 2019 - 2024（畢業）</li>
+            </ul>
+        </div>
 
-                <p><strong>校園徵才—企業說明會與博覽會</strong><br>本人隸屬公關組，負責公務信箱管理與對外接洽，具備表達和理解能力，培養同理心和待人處事的態度。擬稿件寄給校內外長官嘉賓、藝人、廠商；電話追蹤各出席意願與細節說明等。企業說明會舉辦59個場次，就業博覽會有136家參與，對整體活動感到滿意的企業分別有52家和59家。</p>
+        <div class="section">
+            <h3>活動與實習經歷：</h3>
+            <h4>主要經歷：</h4>
+            <ul>
+                <li><strong>U-Start 創新創業計畫—好好坐壓：</strong>通過113年度教育部一階徵選，獲得35萬創業基金。創立初衷是為了緩解輪椅族群的褥瘡疾病，並且呼籲「久坐」可能帶來的負面影響。本人擔任財務組長，負責預算規劃及運用。</li>
+                <li><strong>校園徵才—企業說明會與博覽會：</strong>擔任公關組，負責公務信箱管理與對外接洽，培養表達與理解能力。共舉辦59個企業說明會，136家參與的企業均滿意。</li>
+                <li><strong>中央大學公益傳播大使：</strong>發起群眾募資，並與桃園市唐氏症家長協會合作，募得59,261元，負責行銷文案與設計。</li>
+                <li><strong>互動式月經教育展覽與講座：</strong>擔任活動負責人，規劃整體活動並成功爭取補助，共吸引1,196人參與。</li>
+                <li><strong>臺南市政府實習生：</strong>負責兩梯營隊的隊輔工作，進行多元文化的教案與團體活動策劃。</li>
+            </ul>
+        </div>
 
-                <p><strong>中央大學公益傳播大使</strong><br>在挖貝募資平台發起群眾募資，並與桃園市唐氏症家長協會合作，共募得59,261元。本人在團隊中負責行銷文案書寫與排版設計，並針對不同受眾撰寫文案，例如撰寫宣傳影片腳本、社群媒體貼文、寄給企業與民間團體的募資邀請信等。在該段期間，唐氏症家長協會的社群貼文增加至少80%的曝光度與觸及率。</p>
+        <div class="section">
+            <h3>學術研究：</h3>
+            <h4>研究項目：</h4>
+            <ul>
+                <li>財務資訊管理專題——NBA球員薪酬績效分析</li>
+                <li>金融機構與市場專題——Reasons and Future Prospects of the Most Focused Factor of ESG Funds in Taiwan</li>
+                <li>大專生研究計畫提案——資訊不對稱與美國公開市場股票回購異常報酬之關係</li>
+            </ul>
+        </div>
 
-                <p><strong>互動式月經教育展覽與講座</strong><br>擔任活動負責人，負責整體活動規劃、青年局企劃書撰寫、贊助邀請與講師接洽。向桃園市青年事務局申請新台幣3萬元補助、向學校申請約15萬元經費，參與人數共達1,196人。邀請臺大黃韻如教授與烏恩慈醫師至中大演講；贊助廠商包含凱娜、谷慕慕、好布溫柔與Play&Joy。後續響應性別平等教育全球日，受邀在國家圖書館等全台共八處位址再次重現月經展。</p>
+        <div class="section">
+            <h3>語言與程式能力：</h3>
+            <h4>語言能力：</h4>
+            <ul>
+                <li>TOEIC LR 金色860分</li>
+                <li>客語能力初級認證合格</li>
+            </ul>
+            <h4>程式能力：</h4>
+            <ul>
+                <li>R、Python、MATLAB</li>
+            </ul>
+        </div>
 
-                <p><strong>臺南市政府實習生</strong><br>本人擔任兩梯營隊的隊輔，以主題式活動為主軸，從多元文化的角度進行延伸策劃。負責教案講授與外出教學、團體活動等，培養訓練表達與敘事能力，重視課程架構與脈絡的完整性，以及學習和夥伴們互助合作。</p>
-            </div>
-        </section>
+        <div class="section">
+            <h3>專業證照：</h3>
+            <h4>證照項目：</h4>
+            <ul>
+                <li>初階外匯人員</li>
+                <li>金融科技力證照</li>
+                <li>信託業業務員證照</li>
+                <li>期貨商業務員證照</li>
+                <li>證券商高級業務員</li>
+            </ul>
+        </div>
 
-        <section>
-            <div class="section-title">學術研究</div>
-            <div class="content">
-                <p><strong>財務資訊管理專題</strong>——NBA球員薪酬績效分析</p>
-                <p><strong>金融機構與市場專題</strong>——Reasons and Future Prospects of the Most Focused Factor of ESG Funds in Taiwan</p>
-                <p><strong>大專生研究計畫提案</strong>——資訊不對稱與美國公開市場股票回購異常報酬之關係</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-title">語言與程式能力</div>
-            <div class="content">
-                <p>TOEIC LR 金色860分</p>
-                <p>客語能力初級認證合格</p>
-                <p>R、Python、MATLAB</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-title">專業證照</div>
-            <div class="content">
-                <p>初階外匯人員</p>
-                <p>金融科技力證照</p>
-                <p>信託業業務員證照</p>
-                <p>期貨商業務員證照</p>
-                <p>證券商高級業務員</p>
-            </div>
-        </section>
     </div>
 
 </body>
